@@ -8,7 +8,7 @@ button.addEventListener("click", async () => {
   };
 
   try {
-    const response = await axios.post("http://localhost:3000/getNutrition", recipe);
+    const response = await axios.post("http://localhost:3000/getMoment", recipe);
     console.log(`calories : ${response.data.calories}`);
     console.log(`carbs    : ${response.data.totalNutrients.CHOCDF.quantity}`);
     console.log(`protein  : ${response.data.totalNutrients.PROCNT.quantity}`);

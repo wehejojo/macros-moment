@@ -10,7 +10,7 @@ const API_KEY = process.env.API_KEY;
 app.use(cors());
 app.use(express.json());
 
-app.post("/getNutrition", async (req, res) => {
+app.post("/getMoment", async (req, res) => {
   const url = `https://api.edamam.com/api/nutrition-details?app_id=${API_ID}&app_key=${API_KEY}`;
   const recipe = req.body;
 
