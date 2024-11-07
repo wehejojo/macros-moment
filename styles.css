@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: lightgrey;
+}
+
+main{
+    height: 50%;
+    width: 50%;
+    background: gray;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px;
+}
+
+main h1{
+    text-align: center;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+.area textarea{
+    margin-bottom: 10px;
+}
